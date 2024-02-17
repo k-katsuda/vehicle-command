@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/teslamotors/vehicle-command/internal/log"
-	"github.com/teslamotors/vehicle-command/pkg/cli"
-	"github.com/teslamotors/vehicle-command/pkg/protocol"
-	"github.com/teslamotors/vehicle-command/pkg/proxy"
+	"github.com/k-katsuda/vehicle-command/internal/log"
+	"github.com/k-katsuda/vehicle-command/pkg/cli"
+	"github.com/k-katsuda/vehicle-command/pkg/protocol"
+	"github.com/k-katsuda/vehicle-command/pkg/proxy"
 )
 
 const (

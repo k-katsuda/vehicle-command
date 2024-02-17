@@ -4,7 +4,7 @@ This document contains a specification of the protocol used by the mobile app
 to send commands to Tesla vehicles. It covers session management and
 cryptography. Application-layer payloads are out of scope, but should be easily
 reproduced by following source code links from the [package
-documentation](https://pkg.go.dev/github.com/teslamotors/vehicle-command/pkg/vehicle).
+documentation](https://pkg.go.dev/github.com/k-katsuda/vehicle-command/pkg/vehicle).
 
 ## Message encoding
 
@@ -520,7 +520,7 @@ The client first generates a command protobuf `P`, which generally encodes
 either a `VCSEC.UnsignedMessage` or a `CarServer.Action` message. To determine
 the required message type and contents for a given command, follow source code
 links from the [package
-documentation](https://pkg.go.dev/github.com/teslamotors/vehicle-command/pkg/vehicle).
+documentation](https://pkg.go.dev/github.com/k-katsuda/vehicle-command/pkg/vehicle).
 
 ### Metadata
 

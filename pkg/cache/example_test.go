@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/teslamotors/vehicle-command/pkg/cache"
-	"github.com/teslamotors/vehicle-command/pkg/connector/ble"
-	"github.com/teslamotors/vehicle-command/pkg/protocol"
-	"github.com/teslamotors/vehicle-command/pkg/vehicle"
+	"github.com/k-katsuda/vehicle-command/pkg/cache"
+	"github.com/k-katsuda/vehicle-command/pkg/connector/ble"
+	"github.com/k-katsuda/vehicle-command/pkg/protocol"
+	"github.com/k-katsuda/vehicle-command/pkg/vehicle"
 )
 
 func Example() {

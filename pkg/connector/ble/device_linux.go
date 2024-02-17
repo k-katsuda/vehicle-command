@@ -1,8 +1,8 @@
 package ble
 
 import (
-	"github.com/go-ble/ble"
-	"github.com/go-ble/ble/linux"
+	"github.com/k-katsuda/ble"
+	"github.com/k-katsuda/ble/linux"
 )
 
 func newDevice() (ble.Device, error) {

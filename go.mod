@@ -1,10 +1,10 @@
-module github.com/teslamotors/vehicle-command
+module github.com/k-katsuda/vehicle-command
 
 go 1.20
 
 require (
 	github.com/99designs/keyring v1.2.2
-	github.com/go-ble/ble v0.0.0-20220207185428-60d1eecf2633
+	github.com/k-katsuda/ble v0.0.0-20220207185428-60d1eecf2633
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	golang.org/x/term v0.5.0
 	google.golang.org/protobuf v1.28.1
@@ -25,7 +25,6 @@ require (
 	github.com/mgutz/logxi v0.0.0-20161027140823-aebf8a7d67ab // indirect
 	github.com/mtibben/percent v0.2.1 // indirect
 	github.com/pkg/errors v0.8.1 // indirect
-	github.com/raff/goble v0.0.0-20190909174656-72afc67d6a99 // indirect
 	github.com/sirupsen/logrus v1.5.0 // indirect
 	golang.org/x/sys v0.8.0 // indirect
 )

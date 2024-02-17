@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/teslamotors/vehicle-command/internal/log"
-	"github.com/teslamotors/vehicle-command/pkg/connector"
-	"github.com/teslamotors/vehicle-command/pkg/protocol"
+	"github.com/k-katsuda/vehicle-command/internal/log"
+	"github.com/k-katsuda/vehicle-command/pkg/connector"
+	"github.com/k-katsuda/vehicle-command/pkg/protocol"
 )
 
 func readWithContext(ctx context.Context, r io.Reader, p []byte) ([]byte, error) {

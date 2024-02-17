@@ -18,7 +18,7 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/signatures"
+	"github.com/k-katsuda/vehicle-command/pkg/protocol/protobuf/signatures"
 )
 
 // NativeSession implements the Session interface using native Go.

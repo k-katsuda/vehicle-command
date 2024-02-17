@@ -1,6 +1,6 @@
 # Tesla Vehicle Command SDK
-[![Go Reference](https://pkg.go.dev/badge/github.com/teslamotors/vehicle-command/pkg.svg)](https://pkg.go.dev/github.com/teslamotors/vehicle-command/pkg)
-[![Build and Test](https://github.com/teslamotors/vehicle-command/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/teslamotors/vehicle-command/actions/workflows/build.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/k-katsuda/vehicle-command/pkg.svg)](https://pkg.go.dev/github.com/k-katsuda/vehicle-command/pkg)
+[![Build and Test](https://github.com/k-katsuda/vehicle-command/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/k-katsuda/vehicle-command/actions/workflows/build.yml)
 
 Tesla vehicles now support a protocol that provides end-to-end command
 authentication. This Golang package uses the new protocol to control vehicle
@@ -249,7 +249,7 @@ directly, instead.
 
 ## Using the Golang library
 
-You can read package [documentation on pkg.go.dev](https://pkg.go.dev/github.com/teslamotors/vehicle-command/pkg).
+You can read package [documentation on pkg.go.dev](https://pkg.go.dev/github.com/k-katsuda/vehicle-command/pkg).
 
 This repository supports `go mod` and follows [Go version
 semantics](https://go.dev/doc/modules/version-numbers). Note that v0.x.x

@@ -6,10 +6,10 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/teslamotors/vehicle-command/pkg/connector"
-	"github.com/teslamotors/vehicle-command/pkg/protocol"
-	carserver "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/carserver"
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/vcsec"
+	"github.com/k-katsuda/vehicle-command/pkg/connector"
+	"github.com/k-katsuda/vehicle-command/pkg/protocol"
+	carserver "github.com/k-katsuda/vehicle-command/pkg/protocol/protobuf/carserver"
+	"github.com/k-katsuda/vehicle-command/pkg/protocol/protobuf/vcsec"
 )
 
 func (v *Vehicle) SetValetMode(ctx context.Context, on bool, valetPassword string) error {

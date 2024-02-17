@@ -3,8 +3,8 @@ package authentication
 import (
 	"time"
 
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/signatures"
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	"github.com/k-katsuda/vehicle-command/pkg/protocol/protobuf/signatures"
+	universal "github.com/k-katsuda/vehicle-command/pkg/protocol/protobuf/universalmessage"
 )
 
 // sessionInfo provides an interface for extracting metadata from both HMAC- and GCM-authenticated messages.

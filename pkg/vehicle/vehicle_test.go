@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/teslamotors/vehicle-command/internal/dispatcher"
-	"github.com/teslamotors/vehicle-command/pkg/connector"
-	"github.com/teslamotors/vehicle-command/pkg/protocol"
+	"github.com/k-katsuda/vehicle-command/internal/dispatcher"
+	"github.com/k-katsuda/vehicle-command/pkg/connector"
+	"github.com/k-katsuda/vehicle-command/pkg/protocol"
 
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	universal "github.com/k-katsuda/vehicle-command/pkg/protocol/protobuf/universalmessage"
 )
 
 type testReceiever struct {

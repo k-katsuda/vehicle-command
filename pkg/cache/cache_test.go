@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/teslamotors/vehicle-command/internal/dispatcher"
+	"github.com/k-katsuda/vehicle-command/internal/dispatcher"
 )
 
 const testSessionCount = 3

@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-ble/ble"
-	"github.com/teslamotors/vehicle-command/internal/log"
-	"github.com/teslamotors/vehicle-command/pkg/connector"
+	"github.com/k-katsuda/ble"
+	"github.com/k-katsuda/vehicle-command/internal/log"
+	"github.com/k-katsuda/vehicle-command/pkg/connector"
 )
 
 const maxBLEMessageSize = 1024

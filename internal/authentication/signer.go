@@ -7,8 +7,8 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/signatures"
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	"github.com/k-katsuda/vehicle-command/pkg/protocol/protobuf/signatures"
+	universal "github.com/k-katsuda/vehicle-command/pkg/protocol/protobuf/universalmessage"
 )
 
 // Signers encrypt messages that are decrypted and verified by a designated Verifier.

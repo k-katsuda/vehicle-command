@@ -9,11 +9,11 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/teslamotors/vehicle-command/pkg/protocol"
+	"github.com/k-katsuda/vehicle-command/pkg/protocol"
 
-	verror "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/errors"
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/vcsec"
+	verror "github.com/k-katsuda/vehicle-command/pkg/protocol/protobuf/errors"
+	universal "github.com/k-katsuda/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	"github.com/k-katsuda/vehicle-command/pkg/protocol/protobuf/vcsec"
 )
 
 func testPublicKey() *ecdh.PublicKey {

@@ -1,7 +1,7 @@
 package authentication
 
 import (
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/signatures"
+	"github.com/k-katsuda/vehicle-command/pkg/protocol/protobuf/signatures"
 )
 
 // Dispatcher facilitates creating connections to multiple vehicles using the same ECDHPrivateKey.

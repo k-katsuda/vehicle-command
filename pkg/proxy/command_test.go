@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/teslamotors/vehicle-command/pkg/connector/inet"
-	"github.com/teslamotors/vehicle-command/pkg/protocol"
-	"github.com/teslamotors/vehicle-command/pkg/proxy"
-	"github.com/teslamotors/vehicle-command/pkg/vehicle"
+	"github.com/k-katsuda/vehicle-command/pkg/connector/inet"
+	"github.com/k-katsuda/vehicle-command/pkg/protocol"
+	"github.com/k-katsuda/vehicle-command/pkg/proxy"
+	"github.com/k-katsuda/vehicle-command/pkg/vehicle"
 )
 
 func TestExtractCommandAction(t *testing.T) {
